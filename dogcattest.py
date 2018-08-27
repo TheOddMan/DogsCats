@@ -4,7 +4,7 @@ from keras.preprocessing.image import img_to_array
 from keras.models import load_model
 import numpy as np
 
-path = "D:\\Users\\409LAB00\\PycharmProjects\\DemoCode\\DemoCode\\dogcat\\test"
+path = "test"
 model = load_model('first_try.h5')
 classes=['cat','dog']                                                                       #更改處
 
